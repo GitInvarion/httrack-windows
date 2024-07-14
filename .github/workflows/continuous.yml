@@ -30,7 +30,7 @@ jobs:
     runs-on: ${{matrix.BaseImage}}
     strategy:
       matrix:
-        BaseImage: [windows-latest, ubuntu-latest, ubuntu-18.04]
+        BaseImage: [windows-latest]
         Configuration: [Debug, Release]
         Arch: [x86, x64]
         exclude:
